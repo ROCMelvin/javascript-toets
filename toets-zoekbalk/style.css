@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #111;
+  color: #f1f1f1;
+  text-align: center;
+ 
+}
+
+h1 {
+  font-size: 2.441rem;
+  margin-bottom: 1.5rem;
+
+}
+
+h2 {
+  font-size: 1.953rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  opacity: .6;
+  
+}
+
+h3 {
+  font-size: 0.64rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  opacity: .6;
+  letter-spacing: 5px;
+  margin-bottom: .5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#myInput {
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  color: #f1f1f1;
+  background-color: #222;
+  border: 1px solid #555;
+}
+
+
+
+
+#myTable {
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+ 
+}
+
+#myTable th,
+#myTable td {
+  border: 1px solid #555;
+  width: 32%;
+  padding: 1rem;
+
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+ 
+}
+
+section {
+  min-height: 100vh;
+  max-width: 64em;
+  padding: 1rem .5rem;
+  margin-inline: auto;
+}
+
+
+.hide-search {
+  display: none;
+}
